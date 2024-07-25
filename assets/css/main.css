@@ -4135,25 +4135,25 @@ div.scroll-container img {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: center; /* Center the items */
+    justify-content: center; 
 }
 .certification {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    max-width: 400px; /* Adjust for a smaller width */
-    height: auto; /* Remove fixed height to fit content */
-    box-sizing: border-box; /* Ensure padding and border are included in width */
+    max-width: 400px; 
+    height: auto; 
+    box-sizing: border-box; 
     display: flex;
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally 2:4:3:1*/
+    flex-direction: column; 
+    align-items: center;
 }
 .certification img {
-    width: 250px; /* Adjust as needed */
+    width: 250px; 
     height: auto;
     border-radius: 5px;
-    margin-bottom: 10px; /* Space below image */
+    margin-bottom: 10px; 
 }
 .certification .details {
     text-align: center;
@@ -4162,10 +4162,10 @@ div.scroll-container img {
     text-decoration: none;
     color: #007BFF;
     display: block;
-    margin-bottom: 5px; /* Space between elements */
-    font-size: 16px; /* Adjust font size as needed */
+    margin-bottom: 5px; 
+    font-size: 16px; 
 }
 .certification p {
-    margin: 0; /* Remove default margins */
-    font-size: 14px; /* Smaller font size for details */
+    margin: 0; 
+    font-size: 14px; 
 }
