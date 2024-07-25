@@ -4135,37 +4135,43 @@ div.scroll-container img {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: center; 
+    justify-content: center;
 }
+
 .certification {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    max-width: 400px; 
-    height: auto; 
-    box-sizing: border-box; 
+    max-width: 400px;
+    height: auto;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
 }
+
 .certification img {
-    width: 250px; 
+    width: 100%; /* Adjusted for responsiveness */
+    max-width: 250px; /* Max width to ensure it doesn’t exceed 250px */
     height: auto;
     border-radius: 5px;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
 }
+
 .certification .details {
     text-align: center;
 }
+
 .certification a {
     text-decoration: none;
     color: #007BFF;
     display: block;
-    margin-bottom: 5px; 
-    font-size: 16px; 
+    margin-bottom: 5px;
+    font-size: 16px;
 }
+
 .certification p {
-    margin: 0; 
-    font-size: 14px; 
+    margin: 0;
+    font-size: 14px;
 }
