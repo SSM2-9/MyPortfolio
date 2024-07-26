@@ -3139,7 +3139,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #af1ac9;
+			border-color: #82bccd;
 		}
 
 		.spotlight.style2 .content {
@@ -3147,7 +3147,7 @@ input, select, textarea {
 		}
 
 		.spotlight.style3 .content {
-			border-color: #3d87ca;
+			border-color: #a492ce;
 		}
 
 		.spotlight.inactive .content {
@@ -4135,43 +4135,37 @@ div.scroll-container img {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
-    justify-content: center;
+    justify-content: center; /* Center the items */
 }
-
 .certification {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-    max-width: 400px;
-    height: auto;
-    box-sizing: border-box;
+    max-width: 400px; /* Adjust for a smaller width */
+    height: auto; /* Remove fixed height to fit content */
+    box-sizing: border-box; /* Ensure padding and border are included in width */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally 2:4:3:1*/
 }
-
 .certification img {
-    width: 100%; /* Adjusted for responsiveness */
-    max-width: 250px; /* Max width to ensure it doesn’t exceed 250px */
+    width: 250px; /* Adjust as needed */
     height: auto;
     border-radius: 5px;
-    margin-bottom: 10px;
+    margin-bottom: 10px; /* Space below image */
 }
-
 .certification .details {
     text-align: center;
 }
-
 .certification a {
     text-decoration: none;
     color: #007BFF;
     display: block;
-    margin-bottom: 5px;
-    font-size: 16px;
+    margin-bottom: 5px; /* Space between elements */
+    font-size: 16px; /* Adjust font size as needed */
 }
-
 .certification p {
-    margin: 0;
-    font-size: 14px;
+    margin: 0; /* Remove default margins */
+    font-size: 14px; /* Smaller font size for details */
 }
