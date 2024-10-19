@@ -4169,3 +4169,8 @@ div.scroll-container img {
     margin: 0; /* Remove default margins */
     font-size: 14px; /* Smaller font size for details */
 }
+
+.blur{
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
